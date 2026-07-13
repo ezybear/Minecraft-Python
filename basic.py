@@ -4,7 +4,7 @@ from minecraft import *
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-# variable=value
+# variable = value
 # Save the value in variable in the format above
 # = Unlike the meaning of the symbol, the value is simply stored in a variable.
 # Variable can be whatever you want as long as you follow the rules below.
@@ -36,7 +36,7 @@ from minecraft import *
 # Use numbers or variables that store numbers for x, y, and z.
 # Move to the position you want.
 
-# setpos(700, 0, 700)
+# setpos(700, 100, 700)
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
@@ -143,6 +143,19 @@ from minecraft import *
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
+# x = 100
+# y = 100
+# z = 100
+# b = 2
+# gold = 41
+# setpos(x, y, z)
+# setblock(x, y-1, z, b)
+# setblocks(x-1, y-1, z, x-1, y-1, z-4, gold)     # No need to make many variables if they are the same value, 
+#                                                 # allowed to use same coordinates from other builds
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
 
 x = 100
 y = 100
@@ -150,4 +163,8 @@ z = 100
 b = 2
 gold = 41
 setpos(x, y, z)
-setblocks(x, y-1, z, b)
+setblocks(x-1, y-1, z, x-5, y-1, z-4, gold)
+setblocks(x-2, y, z, x-5, y-1, z-4, gold)
+setblocks(x-3, y+1, z, x-5, y-1, z-4, gold)
+setblocks(x-4, y+2, z, x-5, y-1, z-4, gold )
+setblocks(x-5, y+3, z, x-5, y-1, z-4, gold)

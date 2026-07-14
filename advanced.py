@@ -52,3 +52,97 @@ import time
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
+
+# Adding strings
+# You can join strings using the + operator. 
+
+# first = "cit"
+# second = "academy"
+
+# name1 = "cit" + " " + "academy"
+# print(name1)
+
+# name2 = "cit" + " " + second
+# print(name2)
+
+# name3 = first + " " + second
+# print(name3)
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# chat()
+# chat("text") shows text in Minecraft. 
+# You can also use a variable with chat().
+# Unlike print(, chat() cannot show many things with commas. 
+
+# chat("Hello! Welcome!")
+
+# message = "Nice to meet you!"
+# chat(message)
+
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+
+
+# say = input()
+# chat(say)
+
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+
+
+# say1 = input()
+# chat(say1)
+
+# say2 = input()
+# chat(say2)
+
+# say = say1 + say2
+# chat(say)
+
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+
+
+# say = "Hello, welcome!"
+# chat(say)
+
+# say = input()
+# chat(say)
+
+# say = input("say again in python : ")
+# chat(say)
+
+# saycon = input("we concatenate text : ")
+# chat(say + " " + saycon)
+
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+
+
+# say = input("what is your name? : ")    # Input is used for putting in words.
+# chat(say)
+
+# text = "your name is " + say 
+# print(text)                             # print is for printing words below or in chat.
+# chat(text)
+
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+
+
+# Type casting 
+# str(variable or value)    -> Changes it to a string.
+# float(variable or value)  -> Changes it to a float. 
+# int(variable or value)    -> Changes it to a integer. 
+# If you use type casting only in a calculation,
+# the original variable does naot change.
+# To chane the original variable's data type,
+# save the changed value back into the variable
+# Example: a = int(a)
+
+one = "1"
+two = "2"
+three = int(one) + int(two)     # The strings in one and two are changed to integers.
